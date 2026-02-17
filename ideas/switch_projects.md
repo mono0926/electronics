@@ -12,6 +12,14 @@
 | **はんだセット**     | はんだごて、はんだ、こて台                                      | ¥2,000〜¥3,000 |
 | **ユニバーサル基板** | スイッチを固定・配線する場合に便利 (3Dプリントで直配線なら不要) | ¥500           |
 
+#### おすすめのはんだごて
+
+- **本気でやるなら:** [HAKKO FX-600](https://www.hakko.com/japan/products/hakko_fx600.html) (¥5,000〜)
+  - 温度調節機能付きで失敗しにくいです。
+  - 別途[こて台(FH-300)](https://www.hakko.com/japan/products/hakko_fh300.html)と[はんだ(FS402-01)](https://www.hakko.com/japan/products/hakko_fs400.html)が必要です。
+- **とりあえず安く:** [goot SR-30](http://www.goot.jp/handakote/sr-30/) (¥1,500〜)
+  - シンプルなニクロムヒーターです。セット品(SR-30 セット)なら台とはんだも付いてきます。
+
 ---
 
 ## 2. プログラマブル・マクロパッド (実用性No.1)
