@@ -1,12 +1,12 @@
 # スピードキューブ・タイマー 🧊⏱
 
-![完成イメージ (AI生成)](images/完成イメージ.jpeg)
+![完成イメージ (AI生成)](images/prototype_finished.jpg)
 _※画像はAI生成による完成イメージです_
 
 Pinecil V2 × Bambu Lab P2S × Arduino で作る、ルービックキューブ用のスピードキューブ・タイマーです。
 SpeedStacks G5 Stackmat タイマーの挙動を再現します。
 
-![内部構造のイメージ (AI生成)](images/内部構造のイメージ.jpeg)
+![内部構造のイメージ (AI生成)](images/prototype_internal.jpg)
 _※画像はAI生成による内部構造イメージです_
 
 ## 概要
