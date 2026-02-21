@@ -1,6 +1,7 @@
 # Piano LED Visualizer 🎹✨
 
 電子ピアノの鍵盤が押された際に、その真上のLEDが光るシステムを構築するプロジェクトです。
+本プロジェクトは、[onlaj/Piano-LED-Visualizer](https://github.com/onlaj/Piano-LED-Visualizer) の構成に準拠して制作を進めています。
 
 ## ディレクトリ構造
 
