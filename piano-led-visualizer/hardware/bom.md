@@ -2,28 +2,41 @@
 
 推奨リポジトリ [onlaj/Piano-LED-Visualizer](https://github.com/onlaj/Piano-LED-Visualizer) に基づいた、日本で調達可能な主な部品リストです。
 
-## 1. コア部品 (必須)
+## 1. コア部品
 
-| 部品名              | 推奨仕様                         | Amazon(参考)                                                                                                                | 備考                            |
-| :------------------ | :------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- | :------------------------------ |
-| **Microcontroller** | Raspberry Pi Zero WH             | [Amazon検索結果](https://www.amazon.co.jp/s?k=Raspberry+Pi+Zero+WH)                                                         | ヘッダーピン実装済みが楽です    |
-| **LED Strip**       | WS2812B 144LEDs/m (黒基板推奨)   | [BTF-LIGHTING WS2812B](https://www.amazon.co.jp/s?k=WS2812B+144+leds)                                                       | 鍵盤幅に合わせるため144/mを推奨 |
-| **Power Supply**    | 5V 10A ACアダプタ                | [5V 10A ACアダプタ](https://www.amazon.co.jp/s?k=5V+10A+%E3%82%A2%E3%83%80%E3%83%97%E3%82%BF)                               | 電流容量に余裕を持つ            |
-| **DC Jack**         | 5.5x2.1mm または 2.5mm           | [DCジャック 変換](https://www.amazon.co.jp/s?k=DC%E3%82%B8%E3%83%83%E3%82%AF+%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB) | ネジ式端子付きが配線しやすい    |
-| **Capacitor**       | 1000μF 6.3V以上 (電解コンデンサ) |                                                                                                                             | 平滑用、LED保護                 |
-| **Resistor**        | 330Ω - 470Ω                      |                                                                                                                             | データライン保護                |
+| 部品名              | 推奨仕様                    | Amazon.co.jp (参考)                                             | AliExpress (安価)                                                                | 備考                                 |
+| :------------------ | :-------------------------- | :-------------------------------------------------------------- | :------------------------------------------------------------------------------- | :----------------------------------- |
+| **Microcontroller** | Raspberry Pi Zero WH / 2 W  | [RPi Zero 2 W](https://www.amazon.co.jp/s?k=Raspberry+Pi+Zero)  | [Search](https://www.aliexpress.com/w/wholesale-Raspberry-Pi-Zero-2-W.html)      | Zero 2 Wの方が動作が快適です         |
+| **LED Strip**       | WS2812B 144LEDs/m (黒基板)  | [BTF-LIGHTING](https://www.amazon.co.jp/s?k=WS2812B+144+leds)   | [BTF-LIGHTING Official](https://www.aliexpress.com/w/wholesale-WS2812B.html)     | 鍵盤全体で通常1m〜1.2m必要           |
+| **Power Supply**    | 5V 10A ACアダプタ           | [5V 10A アダプタ](https://www.amazon.co.jp/s?k=5V+10A+adapter)  | [5V 10A/15A Adapter](https://www.aliexpress.com/w/wholesale-5V-10A-PSU.html)     | 電流容量が不足するとLEDが明滅します  |
+| **DC Jack**         | 5.5x2.1mm メス              | [DCジャック 変換](https://www.amazon.co.jp/s?k=DC+Jack+Adapter) | [DC Power Socket](https://www.aliexpress.com/w/wholesale-DC-5.5x2.1-Female.html) | ネジ式端子付きが初心者にはおすすめ   |
+| **Level Shifter**   | 74AHCT125                   | [レベルシフタ](https://www.amazon.co.jp/dp/B07RWC9C5C)          | [74AHCT125 lot](https://www.aliexpress.com/w/wholesale-74AHCT125.html)           | 3.3V信号を5Vに昇圧してチラつきを防止 |
+| **LCD Display**     | Waveshare 1.44inch (ST7735) | [1.44inch LCD](https://www.amazon.co.jp/dp/B07S8P8Y5C)          | [1.44 TFT LCD](https://www.aliexpress.com/w/wholesale-1.44-ST7735.html)          | IPアドレス等の確認に非常に便利       |
 
-## 2. 接続・アクセサリ
+## 2. 電子工作用消耗品（徹底網羅）
 
-| 部品名           | 仕様                  | 備考                       |
-| :--------------- | :-------------------- | :------------------------- |
-| **MicroSD Card** | 16GB / 32GB Class 10  | OSイメージ書き込み用       |
-| **USB OTG Hub**  | Micro USB to USB-A    | ピアノと接続するために必要 |
-| **Jumper Wires** | メス-メス / オス-メス | ラズパイとLEDの接続用      |
+これらは AliExpress でまとめ買いしておくと、今後のプロジェクトでも役立ちます。
 
-## 3. オプション (あれば便利)
+| 部品名               | 推奨仕様 / サイズ          | AliExpress (参考検索)                                                        | 役割                                    |
+| :------------------- | :------------------------- | :--------------------------------------------------------------------------- | :-------------------------------------- |
+| **Silicon Wire**     | 18AWG (電源用)             | [18AWG Silicon Wire](https://www.aliexpress.com/w/wholesale-18AWG-wire.html) | 5V 10Aの大電流を安全に流すため          |
+| **Silicon Wire**     | 24~26AWG (信号用)          | [24AWG Silicon Wire](https://www.aliexpress.com/w/wholesale-24AWG-wire.html) | ラズパイ本体との信号線に使用            |
+| **Heat Shrink Tube** | 2mm, 4mm, 6mm (セット品)   | [Heat Shrink Kit](https://www.aliexpress.com/w/wholesale-Heat-Shrink.html)   | はんだ付け箇所の絶縁保護                |
+| **Connectors**       | JST-SM 3-pin (オス/メス)   | [JST SM 3pin](https://www.aliexpress.com/w/wholesale-JST-SM-3pin.html)       | LEDストリップとコントローラを分離可能に |
+| **Capacitor**        | 1000μF 6.3V~ (電解)        | [1000uF Capacitor](https://www.aliexpress.com/w/wholesale-1000uF-Cap.html)   | 電源投入時のLED保護（突入電流対策）     |
+| **Resistor**         | 330Ω - 470Ω                | [Resistor Pack](https://www.aliexpress.com/w/wholesale-resistor-metal.html)  | データラインのノイズ・反射防止          |
+| **Solder**           | 錫鉛はんだ または 鉛フリー | [Solder Wire](https://www.aliexpress.com/w/wholesale-Solder.html)            | 基板や線の固定（高密度なものは細めを）  |
 
-| 部品名            | 仕様                   | 目的                                |
-| :---------------- | :--------------------- | :---------------------------------- |
-| **LCD Display**   | Waveshare 1.44inch LCD | ステータス（IPアドレス等）表示用    |
-| **Level Shifter** | 74AHCT125              | 3.3V(ラズパイ)を5V(LED)に確実に変換 |
+## 3. アクセサリ・周辺機器
+
+- **MicroSD Card**: 16GB / 32GB Class 10（信頼性の高い SanDisk 等を推奨）
+- **USB OTG Hub**: Micro USB (オス) to USB-A (メス)（電子ピアノのMIDI出力と接続用）
+- **Case / Mounting**: 3Dプリンター（Bambu Lab P2S）で自作、または適切な汎用ケース
+
+---
+
+### 調達のヒント
+
+> [!TIP]
+> **コスト重視なら AliExpress**:
+> LEDストリップ（144LEDs/m）やレベルシフタ、電線類はアリエクだと数分の一の価格で揃います。ただし到着に1〜2週間かかるため、急ぎの部品（ラズパイ本体やSDカード）だけ Amazon で買う「ハイブリッド調達」が mono さんのようなプロには合理的です。
