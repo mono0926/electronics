@@ -9,8 +9,26 @@
 - `/firmware`: マイコン（Arduino等）用ソースコード
 - `/hardware`: 部品表 (BOM)、回路図
 - `/models`: 3Dプリンター用モデルデータ
+- `/external`: [onlaj/Piano-LED-Visualizer](https://github.com/onlaj/Piano-LED-Visualizer) の日本語訳済サブモジュール
+
+## サブモジュールの利用
+
+本プロジェクトでは、オリジナルのリポジトリを [mono0926/Piano-LED-Visualizer](https://github.com/mono0926/Piano-LED-Visualizer) にフォークし、`ja` ブランチで日本語訳を管理しています。
+
+最新のオリジナルドキュメント（日本語訳）は `/external/README.md` を参照してください。
+
+### 更新ワークフロー
+
+オリジナルの更新を取り込む場合は、以下の手順で行います：
+
+1. `external` ディレクトリで `upstream` (onlaj版) から `main` にプル
+2. `ja` ブランチに切り替え、`main` をマージまたはリベース
+3. 日本語訳を適宜更新してプッシュ
+
+---
 
 ## 現在のステータス
 
 - プロジェクト初期構築中
 - 要件定義（MIDI連動、WS2812B使用）の整理完了
+- オリジナルドキュメントのサブモジュール化と日本語化（`ja` ブランチ）完了
