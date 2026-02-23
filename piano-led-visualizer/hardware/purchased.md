@@ -55,7 +55,6 @@
 | ユニバーサル基板 (Pi Zero用)  | [秋月 114031](https://akizukidenshi.com/catalog/g/g114031/)   | ¥200 | 案A用               |
 | ユニバーサル基板 (大 95×72mm) | [秋月 100518](https://akizukidenshi.com/catalog/g/g100518/)   | ¥150 | 案B用               |
 | ピンヘッダ 1×40               | [秋月 100167](https://akizukidenshi.com/catalog/g/g100167/)   |  ¥35 | 案B用               |
-| microSDカード 16〜32GB        | Amazon等                                                      |    - |                     |
 
 **未購入小計: 約 ¥995**
 
