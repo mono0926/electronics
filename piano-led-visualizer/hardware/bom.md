@@ -12,7 +12,7 @@
 | **Power Supply** | ACアダプタ 5V 6.2A | PSE取得済み。144LEDを50%輝度で駆動するのに最適。 | [秋月電子](https://akizukidenshi.com/catalog/g/g111105/) |
 | **DC Jack Adapter** | メタルボディ・ネジ端子式 | 頑丈な金属製。ACアダプタの出力を安全に配線へ分岐。 | [秋月電子](https://akizukidenshi.com/catalog/g/g108851/) |
 | **Level Shifter** | SN74AHCT125N (DIP-14) | ラズパイの3.3V信号を5Vに増幅。チラつき防止に必須。 | [マルツ](https://www.marutsu.co.jp/pc/i/14226373/) / [AliExpress](https://ja.aliexpress.com/item/1005010466137824.html) |
-| **LCD Display** | 1.44inch TFT (ST7735) | 128x128px, SPI接続。IPアドレスや状態表示用。 | [Amazon](https://www.amazon.co.jp/dp/B07S8P8Y5C) |
+| **LCD Display** | 1.44inch TFT (ST7735) | 128x128px, SPI接続。IPアドレスや状態表示用。 | [千石電商](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EE5-573T) / [アリエク](https://ja.aliexpress.com/item/1005005741243785.html) |
 
 ## B. 安全・安定化パーツ (Safety & Protection)
 火災防止と動作安定のための「影の主役」です。

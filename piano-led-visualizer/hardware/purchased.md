@@ -8,10 +8,12 @@
 | 2026-02-23 | WS2812B LED Strip (144/m) | AliExpress | 約￥1,500 | [商品ページ](https://ja.aliexpress.com/item/1005007989207832.html) | Black PCB, 2m, 144 LEDs/m, IP30 |
 | 2026-02-23 | ACアダプター 5V 6.2A | 秋月電子通商 | ￥2,080 | [商品ページ](https://akizukidenshi.com/catalog/g/g111105/) | LTE36ES-S1-301, PSE適合 |
 | 2026-02-23 | DCジャック (メタル) | 秋月電子通商 | ￥250 | [商品ページ](https://akizukidenshi.com/catalog/g/g108851/) | JR-56, メタルボディ, スクリュー端子 |
+| 2026-02-23 | Waveshare LCD HAT (1.44) | AliExpress | ￥2,227 | [商品ページ](https://ja.aliexpress.com/item/1005005741243785.html) | プロジェクト推奨のHAT版 |
+| 2026-02-23 | Level Shifter (SN74AHCT125N) | AliExpress | ￥645 | [商品ページ](https://ja.aliexpress.com/item/1005010466137824.html) | 10個セット、データ線電圧変換用 |
 
 ---
 
 ### 合計金額 (Total Cost)
 
-**合計: ￥8,110**
-(内訳: RPi ￥4,280 + LED 約￥1,500 + ACアダプタ ￥2,080 + DCジャック ￥250)
+**合計: ￥10,982**
+(内訳: RPi ￥4,280 + LED ￥1,500 + ACアダプタ ￥2,080 + DCジャック ￥250 + LCD ￥2,227 + レベルシフタ ￥645)
