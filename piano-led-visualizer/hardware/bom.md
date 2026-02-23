@@ -27,8 +27,8 @@
 
 | 部品名 | 推奨仕様 | 検索キーワード / 備考 | 調達先 |
 | :--- | :--- | :--- | :--- |
-| **Silicon Wire (厚)** | **18AWG** (赤・黒) | `18AWG Silicone Wire Red Black` | [Amazon](https://www.amazon.co.jp/s?k=18AWG+シリコンケーブル) |
-| **Silicon Wire (細)** | **24〜26AWG** | `24AWG Silicone Wire Multi Color` | [Amazon](https://www.amazon.co.jp/s?k=24AWG+シリコンケーブル) |
+| **Silicon Wire (厚)** | **18AWG** (赤・黒) | `18AWG Silicone Wire Red Black` **(各3m〜5m推奨)** | [Amazon](https://www.amazon.co.jp/s?k=18AWG+シリコンケーブル) |
+| **Silicon Wire (細)** | **24〜26AWG** | `24AWG Silicone Wire Multi Color` **(配線ミス防止のため6色以上推奨、各1.5m〜)** | [Amazon](https://www.amazon.co.jp/s?k=24AWG+シリコンケーブル) |
 | **Connectors** | JST-SM 3-pin | `JST-SM 3 pin connector kit` | [Amazon](https://www.amazon.co.jp/dp/B0716D9XJF) |
 | **Universal PCB** | 片面/両面 Dタイプ等 | `Universal Prototype Board 4x6cm` | [秋月 (100015)](https://akizukidenshi.com/catalog/g/g100015/) |
 | **IC Socket** | 14ピン用 (DIP) | `14 pin DIP IC Socket` | [秋月 (101382)](https://akizukidenshi.com/catalog/g/g101382/) |
