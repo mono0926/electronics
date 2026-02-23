@@ -4,14 +4,14 @@
 
 ## 1. コア部品
 
-| 部品名              | 推奨仕様                    | Amazon.co.jp (参考)                                             | AliExpress (安価)                                                                | 備考                                 |
-| :------------------ | :-------------------------- | :-------------------------------------------------------------- | :------------------------------------------------------------------------------- | :----------------------------------- |
-| **Microcontroller** | Raspberry Pi Zero 2 W (推奨) | [RPi Zero 2 W](https://www.amazon.co.jp/s?k=Raspberry+Pi+Zero)  | [Search](https://www.aliexpress.com/w/wholesale-Raspberry-Pi-Zero-2-W.html)      | 処理能力に余裕があり、描画がスムーズです |
-| **LED Strip**       | WS2812B 144LEDs/m (黒基板)  | [BTF-LIGHTING](https://www.amazon.co.jp/s?k=WS2812B+144+leds)   | [BTF-LIGHTING Official](https://www.aliexpress.com/w/wholesale-WS2812B.html)     | 鍵盤全体で通常1m〜1.2m必要           |
-| **Power Supply**    | 5V 10A ACアダプタ           | [5V 10A アダプタ](https://www.amazon.co.jp/s?k=5V+10A+adapter)  | [5V 10A/15A Adapter](https://www.aliexpress.com/w/wholesale-5V-10A-PSU.html)     | 電流容量が不足するとLEDが明滅します  |
-| **DC Jack**         | 5.5x2.1mm メス              | [DCジャック 変換](https://www.amazon.co.jp/s?k=DC+Jack+Adapter) | [DC Power Socket](https://www.aliexpress.com/w/wholesale-DC-5.5x2.1-Female.html) | ネジ式端子付きが初心者にはおすすめ   |
-| **Level Shifter**   | 74AHCT125                   | [レベルシフタ](https://www.amazon.co.jp/dp/B07RWC9C5C)          | [74AHCT125 lot](https://www.aliexpress.com/w/wholesale-74AHCT125.html)           | 3.3V信号を5Vに昇圧してチラつきを防止 |
-| **LCD Display**     | Waveshare 1.44inch (ST7735) | [1.44inch LCD](https://www.amazon.co.jp/dp/B07S8P8Y5C)          | [1.44 TFT LCD](https://www.aliexpress.com/w/wholesale-1.44-ST7735.html)          | IPアドレス等の確認に非常に便利       |
+| 部品名              | 詳細スペック・型番           | 購入のポイント・仕様詳細                                                                 | 参考リンク                                                                       |
+| :------------------ | :--------------------------- | :--------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
+| **Microcontroller** | Raspberry Pi Zero 2 WH       | **1GHz Quad-core 64-bit SoC**, 512MB LPDDR2 RAM, **ピンヘッダー実装済みモデル**を推奨。  | [秋月電子](https://akizukidenshi.com/catalog/g/g129607/)                        |
+| **LED Strip**       | WS2812B (144 LEDs/m)         | **5V**, **IP30 (非防水)**, **黒基板**。1mあたり最大約8.6A消費するため電流容量に注意。     | [Amazon](https://www.amazon.co.jp/s?k=WS2812B+144+leds)                          |
+| **Power Supply**    | ACアダプタ (5V 10A / 50W)    | **5V 10A以上**, DCプラグ **5.5mm/2.1mm (センタープラス)**。スイッチング式、PSEマーク付き。 | [Amazon](https://www.amazon.co.jp/s?k=5V+10A+adapter)                            |
+| **DC Jack Adapter** | 5.5x2.1mm メス ⇔ ネジ式端子  | ACアダプタのプラグを電線に変換。**許容電流10A以上**のもの（端子が太いタイプ）を推奨。    | [Amazon](https://www.amazon.co.jp/s?k=DC+Jack+Adapter) |
+| **Level Shifter**   | 74AHCT125 (DIP版)            | **Quad Bus Buffer (3-State)**。ラズパイの3.3V信号を5Vに高速変換（チラつき防止に必須）。  | [秋月電子](https://akizukidenshi.com/catalog/g/g05466/)                         |
+| **LCD Display**     | 1.44inch TFT LCD (ST7735)    | **128x128 pixel**, **SPI接続**。IPアドレスやステータス表示用。Waveshare互換品が一般的。   | [Amazon](https://www.amazon.co.jp/dp/B07S8P8Y5C)                                |
 
 ## 2. 電子工作用消耗品（徹底網羅）
 
@@ -29,9 +29,12 @@
 
 ## 3. アクセサリ・周辺機器
 
-- **MicroSD Card**: 16GB / 32GB Class 10（信頼性の高い SanDisk 等を推奨）
-- **USB OTG Hub**: Micro USB (オス) to USB-A (メス)（電子ピアノのMIDI出力と接続用）
-- **Case / Mounting**: 3Dプリンター（Bambu Lab P2S）で自作、または適切な汎用ケース
+| 部品名               | 詳細スペック・推奨仕様                                                                                           | 役割                                                |
+| :------------------- | :--------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------- |
+| **MicroSD Card**     | **16GB / 32GB**, **Class 10 / UHS-I**, **A1/A2規格**。信頼性の高い SanDisk や Samsung 製を推奨。                | OSおよびビジュアライザーソフトの格納                |
+| **USB OTG Hub/Cable**| **Micro USB (オス) to USB-A (メス)**。電子ピアノのUSB MIDI出力と接続するために必須。                             | 電子ピアノからのMIDI信号入力                        |
+| **HDMI Cable**       | **Mini-HDMI to HDMI** 変換アダプタまたはケーブル。セットアップ時やデバッグ時の画面出力に使用。                   | 初期設定およびトラブルシューティング用              |
+| **Case / Mounting**  | 3Dプリンター（Bambu Lab P2S）で自作。熱を持つため、通気口のあるデザインを推奨。                                 | ラズパイ本体および配線の保護と固定                  |
 
 ---
 
