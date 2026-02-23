@@ -21,7 +21,7 @@
 | **ヒューズホルダー** | ガラス管用 (推奨) または 平型 | 秋月で揃えるならガラス管用が確実です | [秋月 (P-109629)](https://akizukidenshi.com/catalog/g/g109629/) / [Amazon (平型)](https://www.amazon.co.jp/dp/B08L7V4QW6) |
 | **ヒューズ** | **10A** | ホルダーの形式に合わせて購入してください | [秋月: ガラス管用 (P-107138)](https://akizukidenshi.com/catalog/g/g107138/) / [秋月: 平型 30A (参考)](https://akizukidenshi.com/catalog/g/g100745/) |
 | **電解コンデンサ** | 1000μF 10V以上 | `Electrolytic Capacitor 1000uF 10V` | [秋月 (100147)](https://akizukidenshi.com/catalog/g/g100147/) |
-| **抵抗器** | 330Ω 〜 470Ω | `Resistor 1/4W 330 ohm` | [秋月 (102283)](https://akizukidenshi.com/catalog/g/g102283/) |
+| **抵抗器セット** | 10Ω〜1MΩ (金属皮膜) | **推奨**: 330Ω/470Ω/10kΩ等を含むセット品 | [Amazon](https://www.amazon.co.jp/dp/B072BXB2Y8) / [秋月(単体)](https://akizukidenshi.com/catalog/g/g102283/) |
 
 ## C. 配線・接続部材 (Wiring)
 
