@@ -29,7 +29,7 @@
 | :--- | :--- | :--- | :--- |
 | **Silicon Wire (厚)** | **18AWG** (赤・黒) | `18AWG Silicone Wire Red Black` **(各3m〜5m推奨)** | [Amazon](https://www.amazon.co.jp/s?k=18AWG+シリコンケーブル) |
 | **Silicon Wire (細)** | **24〜26AWG** | `24AWG Silicone Wire Multi Color` **(配線ミス防止のため6色以上推奨、各1.5m〜)** | [Amazon](https://www.amazon.co.jp/s?k=24AWG+シリコンケーブル) |
-| **Connectors** | JST-SM 3-pin | `JST-SM 3 pin connector kit` | [Amazon](https://www.amazon.co.jp/dp/B0716D9XJF) |
+| **Connectors** | JST-SM 3-pin | `JST-SM 3 pin connector kit` **(1〜2ペア使用。予備含めキット購入推奨)** | [Amazon](https://www.amazon.co.jp/dp/B0716D9XJF) |
 | **Universal PCB** | 片面/両面 Dタイプ等 | `Universal Prototype Board 4x6cm` | [秋月 (100015)](https://akizukidenshi.com/catalog/g/g100015/) |
 | **IC Socket** | 14ピン用 (DIP) | `14 pin DIP IC Socket` | [秋月 (101382)](https://akizukidenshi.com/catalog/g/g101382/) |
 | **Aluminum Profile** | U型・2m分 | `LED Aluminum Profile U-shape 1m` | [Amazon](https://www.amazon.co.jp/dp/B07H8H187N) |
