@@ -1,8 +1,13 @@
 # 配線ガイド (Wiring Guide)
 
-このドキュメントでは、Raspberry Pi、LEDテープ、およびレベルシフター（74AHCT125）の接続方法を解説します。
+## 物理配線イメージ
+
+以下は、Raspberry Pi、レベルシフター、LEDテープ、電源の物理的な接続イメージです。
+
+![配線図](file:///Users/mono/Git/electronics/piano-led-visualizer/hardware/wiring_diagram.png)
 
 ## 1. 全体配線図
+このドキュメントでは、Raspberry Pi、LEDテープ、およびレベルシフター（74AHCT125）の接続方法を解説します。
 
 レベルシフターを使用することで、ラズパイの3.3V信号を安全かつ確実に5Vに変換し、LEDのチラつきや誤動作を防ぎます。
 
