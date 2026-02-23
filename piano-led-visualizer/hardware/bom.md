@@ -9,8 +9,8 @@
 | **Microcontroller** | Raspberry Pi Zero 2 WH       | **1GHz Quad-core 64-bit SoC**, 512MB LPDDR2 RAM, **ピンヘッダー実装済みモデル**を推奨。  | [秋月電子](https://akizukidenshi.com/catalog/g/g129607/)                        |
 | **LED Strip**       | WS2812B (144 LEDs/m)         | **5V**, **IP30 (非防水)**, **黒基板**。1mあたり最大約8.6A消費するため電流容量に注意。     | [Amazon](https://www.amazon.co.jp/s?k=WS2812B+144+leds)                          |
 | **Power Supply**    | ACアダプタ (5V 6A~10A)     | **5V 6.2A以上**, PSEマーク付きを推奨。秋月電子の6.2Aモデルが信頼性・入手性ともにベスト。 | [秋月電子](https://akizukidenshi.com/catalog/g/g111105/)                      |
-| **DC Jack Adapter** | 5.5x2.1mm メス ⇔ ネジ式端子  | ACアダプタのプラグを電線に変換。**許容電流10A以上**のもの（端子が太いタイプ）を推奨。    | [Amazon](https://www.amazon.co.jp/s?k=DC+Jack+Adapter) |
-| **Level Shifter**   | 74AHCT125 (DIP版)            | **Quad Bus Buffer (3-State)**。ラズパイの3.3V信号を5Vに高速変換（チラつき防止に必須）。  | [秋月電子](https://akizukidenshi.com/catalog/g/g05466/)                         |
+| **DC Jack Adapter** | 5.5x2.1mm メス ⇔ ネジ式端子  | ACアダプタのプラグを電線に変換。**メタルボディ・スクリュー端子着脱可能**な高品位モデル。 | [秋月電子](https://akizukidenshi.com/catalog/g/g108851/)                      |
+| **Level Shifter**   | SN74AHCT125N (DIP-14)        | **Quad Bus Buffer (3-State)**。3.3V→5Vへの高速変換に必須。国内ならマルツ、大量ならアリエク推奨。 | [マルツ](https://www.marutsu.co.jp/pc/i/14226373/) / [AliExpress](https://ja.aliexpress.com/item/1005010466137824.html) |
 | **LCD Display**     | 1.44inch TFT LCD (ST7735)    | **128x128 pixel**, **SPI接続**。IPアドレスやステータス表示用。Waveshare互換品が一般的。   | [Amazon](https://www.amazon.co.jp/dp/B07S8P8Y5C)                                |
 
 > [!NOTE]
