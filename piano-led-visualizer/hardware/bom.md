@@ -6,7 +6,7 @@
 
 | 部品名              | 推奨仕様                    | Amazon.co.jp (参考)                                             | AliExpress (安価)                                                                | 備考                                 |
 | :------------------ | :-------------------------- | :-------------------------------------------------------------- | :------------------------------------------------------------------------------- | :----------------------------------- |
-| **Microcontroller** | Raspberry Pi Zero WH / 2 W  | [RPi Zero 2 W](https://www.amazon.co.jp/s?k=Raspberry+Pi+Zero)  | [Search](https://www.aliexpress.com/w/wholesale-Raspberry-Pi-Zero-2-W.html)      | Zero 2 Wの方が動作が快適です         |
+| **Microcontroller** | Raspberry Pi Zero 2 W (推奨) | [RPi Zero 2 W](https://www.amazon.co.jp/s?k=Raspberry+Pi+Zero)  | [Search](https://www.aliexpress.com/w/wholesale-Raspberry-Pi-Zero-2-W.html)      | 処理能力に余裕があり、描画がスムーズです |
 | **LED Strip**       | WS2812B 144LEDs/m (黒基板)  | [BTF-LIGHTING](https://www.amazon.co.jp/s?k=WS2812B+144+leds)   | [BTF-LIGHTING Official](https://www.aliexpress.com/w/wholesale-WS2812B.html)     | 鍵盤全体で通常1m〜1.2m必要           |
 | **Power Supply**    | 5V 10A ACアダプタ           | [5V 10A アダプタ](https://www.amazon.co.jp/s?k=5V+10A+adapter)  | [5V 10A/15A Adapter](https://www.aliexpress.com/w/wholesale-5V-10A-PSU.html)     | 電流容量が不足するとLEDが明滅します  |
 | **DC Jack**         | 5.5x2.1mm メス              | [DCジャック 変換](https://www.amazon.co.jp/s?k=DC+Jack+Adapter) | [DC Power Socket](https://www.aliexpress.com/w/wholesale-DC-5.5x2.1-Female.html) | ネジ式端子付きが初心者にはおすすめ   |
@@ -52,3 +52,18 @@ LEDストリップを選ぶ際、`IP30` や `IP65` といった表記があり�
 > [!TIP]
 > **コスト重視なら AliExpress**:
 > LEDストリップ（144LEDs/m, IP30）やレベルシフタ、電線類はアリエクだと数分の一の価格で揃います。ただし到着に1〜2週間かかるため、急ぎの部品（ラズパイ本体やSDカード）だけ Amazon で買う「ハイブリッド調達」が mono さんのようなプロには合理的です。
+---
+
+### Raspberry Pi Zero W vs. Zero 2 W の比較
+
+ピアノビジュアライザーにおける選択基準は以下の通りです。
+
+| 項目 | Raspberry Pi Zero W | Raspberry Pi Zero 2 W |
+| :--- | :--- | :--- |
+| **CPU** | 1コア 1GHz (ARM11) | **4コア 1GHz (Cortex-A53)** |
+| **性能** | 基本的な動作には十分 | **約5倍高速 (マルチコア)** |
+| **メリット** | 安価、低消費電力 | **描画の遅延（レイテンシ）が最小限** |
+| **デメリット** | 複雑なエフェクトで処理落ちの可能性 | 消費電力がわずかに高い (約3W) |
+
+**結論:**
+このプロジェクトでは、リアルタイムのMIDI処理、LED制御、および外部ディスプレイ（LCD）の同時使用を想定しているため、**Raspberry Pi Zero 2 W** を強く推奨します。特に和音の高速打鍵時や、複雑なアニメーション（Pulseモード等）において、Zero 2 Wの方が圧倒的にスムーズな体験が得られます。
