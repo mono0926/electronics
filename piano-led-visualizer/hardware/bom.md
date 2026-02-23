@@ -20,8 +20,8 @@
 | **DCジャック変換** | ネジ端子式 | `DC Jack Adapter 5.5mm 2.1mm Terminal` | [秋月 (108851)](https://akizukidenshi.com/catalog/g/g108851/) |
 | **ヒューズホルダー** | ガラス管用 (推奨) または 平型 | 秋月で揃えるならガラス管用が確実です | [秋月 (P-109629)](https://akizukidenshi.com/catalog/g/g109629/) / [Amazon (平型)](https://www.amazon.co.jp/dp/B08L7V4QW6) |
 | **ヒューズ** | **10A** | ホルダーの形式に合わせて購入してください | [秋月: ガラス管用 (P-107138)](https://akizukidenshi.com/catalog/g/g107138/) / [秋月: 平型 30A (参考)](https://akizukidenshi.com/catalog/g/g100745/) |
-| **電解コンデンサ** | 1000μF 10V以上 | `Electrolytic Capacitor 1000uF 10V` | [秋月 (100147)](https://akizukidenshi.com/catalog/g/g100147/) |
-| **抵抗器セット** | 10Ω〜1MΩ (金属皮膜) | **推奨**: 330Ω/470Ω/10kΩ等を含むセット品 | [Amazon](https://www.amazon.co.jp/dp/B072BXB2Y8) / [秋月(単体)](https://akizukidenshi.com/catalog/g/g102283/) |
+| **電解コンデンサ** | 1000μF 10V以上 | `Electrolytic Capacitor 1000uF 10V` | [秋月 (108424)](https://akizukidenshi.com/catalog/g/g108424/) |
+| **抵抗器** | 330Ω 〜 470Ω | `Resistor 1/4W 330 ohm` | [Amazon (GOODCHIセット)](https://amzn.to/4s2Hx6a) / [秋月 (125331)](https://akizukidenshi.com/catalog/g/g125331/) |
 
 ## C. 配線・接続部材 (Wiring)
 
@@ -33,7 +33,8 @@
 | **熱収縮チューブ** | 各種サイズセット | **配線の絶縁に必須**。 | [Amazon](https://www.amazon.co.jp/s?k=熱収縮チューブ+セット) |
 | **ユニバーサル基板** | Dタイプ等 | `Universal Prototype Board 4x6cm` | [秋月 (100015)](https://akizukidenshi.com/catalog/g/g100015/) |
 | **ICソケット** | 14ピン用 (DIP) | `14 pin DIP IC Socket` | [秋月 (101382)](https://akizukidenshi.com/catalog/g/g101382/) |
-| **アルミフレーム** | U型・2m分 | `LED Aluminum Profile U-shape 1m` | [Amazon](https://www.amazon.co.jp/dp/B07H8H187N) |
+| **アルミフレーム** | U型・合計2m分 (1m×5本セット等) | 88鍵(約123cm)には1mを2本使用。金切鋸でカットして繋げます。 | [BTF-LIGHTING (Amazon)](https://www.amazon.co.jp/dp/B082SMK1D1) |
+| **3Dプリントパーツ** | マウント/エンドキャップ | **Bambu Lab P2S** で自作可能。レール端の保護や固定具に最適。 | [参考モデル (Printables)](https://www.printables.com/search/models?q=piano+led) |
 
 ## D. その他・周辺機器 (Others)
 
