@@ -8,6 +8,7 @@
 | 部品名               | 推奨モデル/型番        | 検索キーワード (Amazon/AliExpress)   | 調達先 (国内優先)                                                                                                                  |
 | :------------------- | :--------------------- | :----------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
 | **マイコン**         | Raspberry Pi Zero 2 WH | `Raspberry Pi Zero 2 WH`             | [秋月 (129607)](https://akizukidenshi.com/catalog/g/g129607/) / [KSR](https://www.ksyic.com/)                                      |
+| **ヒートシンク**     | Pi 4B用または専用品    | `Raspberry Pi Zero 2 W heatsink`     | [秋月 (116098)](https://akizukidenshi.com/catalog/g/g116098/) / [Amazon](https://www.amazon.co.jp/dp/B09QSMTW5W/)                  |
 | **LEDテープ**        | WS2812B (144 LEDs/m)   | `WS2812B 144 leds 5V IP30 black PCB` | [Amazon](https://www.amazon.co.jp/s?k=WS2812B+144+leds+5V) / [AliExpress](https://ja.aliexpress.com/item/1005007989207832.html)    |
 | **レベルシフタ**     | SN74AHCT125N           | `SN74AHCT125N DIP-14`                | [秋月 (104313)](https://akizukidenshi.com/catalog/g/g104313/) / [AliExpress](https://ja.aliexpress.com/item/1005010466137824.html) |
 | **液晶ディスプレイ** | 1.44" TFT (ST7735)     | `1.44 inch TFT LCD ST7735 SPI`       | [秋月 (116135)](https://akizukidenshi.com/catalog/g/g116135/) / [AliExpress](https://ja.aliexpress.com/item/1005006209100114.html) |
