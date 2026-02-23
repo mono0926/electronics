@@ -26,20 +26,21 @@
 
 ## C. 配線・接続部材 (Wiring)
 
-| 部品名                   | 推奨仕様                      | 検索キーワード / 備考                                         | 調達先                                                                                                                  |
-| :----------------------- | :---------------------------- | :------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------- |
-| **シリコンケーブル(厚)** | **18AWG** (赤・黒)            | `18AWG Silicone Wire Red Black` **(各3m〜5m推奨)**            | [Amazon](https://www.amazon.co.jp/s?k=18AWG+シリコンケーブル)                                                           |
-| **シリコンケーブル(細)** | **24〜26AWG**                 | `24AWG Silicone Wire Multi Color` **(6色以上推奨、各1.5m〜)** | [Amazon](https://www.amazon.co.jp/s?k=24AWG+シリコンケーブル)                                                           |
-| **中継コネクタ**         | JST-SM 3ピン                  | `JST-SM 3 pin connector kit` **(1〜2ペア使用)**               | [Amazon](https://www.amazon.co.jp/dp/B0716D9XJF)                                                                        |
-| **熱収縮チューブ**       | 各種サイズセット              | **配線の絶縁に必須**。                                        | [Amazon](https://www.amazon.co.jp/s?k=熱収縮チューブ+セット)                                                            |
-| **ユニバーサル基板**     | Raspberry Pi ZERO用           | `AE-RasPi-Universal-Zero`                                     | [秋月 (114031)](https://akizukidenshi.com/catalog/g/g114031/)                                                           |
-| **連結ピンソケット**     | 2x20 (ラズパイ用 13.5mm)      | `2x20 Stackable Header Raspberry Pi`                          | [秋月 (C-110702)](https://akizukidenshi.com/catalog/g/g110702/)                                                         |
-| **ICソケット**           | 14ピン用 (DIP)                | レベルシフタ(SN74AHCT125N)の着脱・保護に使用                  | [秋月 (100028)](https://akizukidenshi.com/catalog/g/g100028/)                                                           |
-| **ユニバーサル基板**     | 片面・ガラスエポキシ (大)     | `Universal Board 70x90mm or similar`                          | [Amazon](https://www.amazon.co.jp/dp/B01MTW8IKU) / [秋月 (100111)](https://akizukidenshi.com/catalog/g/g100111/)        |
-| **アルミフレーム**       | U型プロファイル (既製品)      | 1m×5本〜10本セット。乳白カバー付きですぐに使えます。          | [Muzata (Amazon)](https://www.amazon.co.jp/dp/B01MXWL3X9)                                                               |
-| **アルミフラットバー**   | **2mm厚 × 15〜20mm幅**        | **推奨案**。加工しやすく放熱も優秀。3Dプリント部材と併用。    | [カインズ](https://www.cainz.com/g/8755970039731.html) / [Amazon](https://www.amazon.co.jp/dp/B0091FIDJK/)              |
-| **シリコンチューブ**     | ネオンLED用スリーブ (白/10mm) | **採用案 (明るさ重視)**。粒感が消えて昼間でも美しくなります。 | [AliExpress](https://www.aliexpress.com/item/1005008787758254.html) / [Amazon](https://www.amazon.co.jp/dp/B0CRDXBSSD/) |
-| **3Dプリントパーツ**     | マウント/ジョイント           | **Bambu Lab P2S** で自作。アルミ板をピアノに固定する部品。    | [参考モデル (Printables)](https://www.printables.com/search/models?q=piano+led)                                         |
+| 部品名                   | 推奨仕様                      | 検索キーワード / 備考                                                      | 調達先                                                                                                                  |
+| :----------------------- | :---------------------------- | :------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| **シリコンケーブル(厚)** | **18AWG** (赤・黒)            | `18AWG Silicone Wire Red Black` **(各3m〜5m推奨)**                         | [Amazon](https://www.amazon.co.jp/s?k=18AWG+シリコンケーブル)                                                           |
+| **シリコンケーブル(細)** | **24〜26AWG**                 | `24AWG Silicone Wire Multi Color` **(6色以上推奨、各1.5m〜)**              | [Amazon](https://www.amazon.co.jp/s?k=24AWG+シリコンケーブル)                                                           |
+| **中継コネクタ**         | JST-SM 3ピン                  | `JST-SM 3 pin connector kit` **(1〜2ペア使用)**                            | [Amazon](https://www.amazon.co.jp/dp/B0716D9XJF)                                                                        |
+| **熱収縮チューブ**       | 各種サイズセット              | **配線の絶縁に必須**。                                                     | [Amazon](https://www.amazon.co.jp/s?k=熱収縮チューブ+セット)                                                            |
+| **ユニバーサル基板(小)** | Raspberry Pi ZERO用           | 案A: スタッキング構成用。詳細は [assembly_options.md](assembly_options.md) | [秋月 (114031)](https://akizukidenshi.com/catalog/g/g114031/)                                                           |
+| **連結ピンソケット**     | 2x20 (ラズパイ用 13.5mm)      | 案A用。案Bでも取り外し可能にする場合に有用                                 | [秋月 (C-110702)](https://akizukidenshi.com/catalog/g/g110702/)                                                         |
+| **ICソケット**           | 14ピン用 (DIP)                | レベルシフタ(SN74AHCT125N)の着脱・保護に使用 (共通)                        | [秋月 (100028)](https://akizukidenshi.com/catalog/g/g100028/)                                                           |
+| **ユニバーサル基板(大)** | 片面 72×95mm 等               | 案B: 横並び構成用。詳細は [assembly_options.md](assembly_options.md)       | [Amazon](https://www.amazon.co.jp/dp/B01MTW8IKU) / [秋月 (100111)](https://akizukidenshi.com/catalog/g/g100111/)        |
+| **ピンヘッダ 1×40**      | 2.54mmピッチ                  | 案Bで Pi を基板に接続する際に使用 (カットして利用)                         | [秋月 (100167)](https://akizukidenshi.com/catalog/g/g100167/)                                                           |
+| **アルミフレーム**       | U型プロファイル (既製品)      | 1m×5本〜10本セット。乳白カバー付きですぐに使えます。                       | [Muzata (Amazon)](https://www.amazon.co.jp/dp/B01MXWL3X9)                                                               |
+| **アルミフラットバー**   | **2mm厚 × 15〜20mm幅**        | **推奨案**。加工しやすく放熱も優秀。3Dプリント部材と併用。                 | [カインズ](https://www.cainz.com/g/8755970039731.html) / [Amazon](https://www.amazon.co.jp/dp/B0091FIDJK/)              |
+| **シリコンチューブ**     | ネオンLED用スリーブ (白/10mm) | **採用案 (明るさ重視)**。粒感が消えて昼間でも美しくなります。              | [AliExpress](https://www.aliexpress.com/item/1005008787758254.html) / [Amazon](https://www.amazon.co.jp/dp/B0CRDXBSSD/) |
+| **3Dプリントパーツ**     | マウント/ジョイント           | **Bambu Lab P2S** で自作。アルミ板をピアノに固定する部品。                 | [参考モデル (Printables)](https://www.printables.com/search/models?q=piano+led)                                         |
 
 ## D. その他・周辺機器 (Others)
 
