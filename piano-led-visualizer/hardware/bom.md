@@ -15,14 +15,14 @@
 
 ## B. 電源・安全・安定化 (Power & Safety)
 
-| 部品名               | スペック/型番            | 検索キーワード / 備考                  | 調達先                                                                                                            |
-| :------------------- | :----------------------- | :------------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
-| **ACアダプタ**       | 5V 6.2A (LTE36ES-S1-301) | `5V 6A AC Adapter 5.5mm 2.1mm`         | [秋月 (111105)](https://akizukidenshi.com/catalog/g/g111105/)                                                     |
-| **DCジャック変換**   | ネジ端子式               | `DC Jack Adapter 5.5mm 2.1mm Terminal` | [秋月 (108851)](https://akizukidenshi.com/catalog/g/g108851/)                                                     |
-| **ヒューズホルダー** | ガラス管用 (中継用)      | 6A〜電源系ならこれでOK                 | [秋月 (P-109629)](https://akizukidenshi.com/catalog/g/g109629/)                                                   |
-| **ヒューズ**         | **6.3A**                 | ガラス管(30mm)。6.2A電源保護に最適     | [秋月 (P-107135)](https://akizukidenshi.com/catalog/g/g107135/)                                                   |
-| **電解コンデンサ**   | 1000μF 10V以上           | `Electrolytic Capacitor 1000uF 10V`    | [秋月 (108424)](https://akizukidenshi.com/catalog/g/g108424/)                                                     |
-| **抵抗器**           | 330Ω 〜 470Ω             | `Resistor 1/4W 330 ohm`                | [Amazon (GOODCHIセット)](https://amzn.to/4s2Hx6a) / [秋月 (125331)](https://akizukidenshi.com/catalog/g/g125331/) |
+| 部品名             | スペック/型番              | 検索キーワード / 備考               | 調達先                                                                                                            |
+| :----------------- | :------------------------- | :---------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| **ACアダプタ**     | 5V 6.2A (秋月電子)         | `5V 6.2A AC Adapter 5.5mm 2.1mm`    | [秋月 (P-111105)](https://akizukidenshi.com/catalog/g/g111105/)                                                   |
+| **DCジャック変換** | ネジ端子式                 | `DC Jack Adapter Terminal Block`    | [Amazon](https://www.amazon.co.jp/dp/B009P07UOW) / [秋月 (4762)](https://akizukidenshi.com/catalog/g/g104762/)    |
+| **ヒューズ**       | 10A (ガラス管ヒューズ)     | `Glass Tube Fuse 10A 32mm`          | [秋月 (107138)](https://akizukidenshi.com/catalog/g/g107138/)                                                     |
+| **ヒューズホルダ** | 中継型または基板マウント型 | `Glass Fuse Holder 30mm/32mm`       | [秋月 (100139)](https://akizukidenshi.com/catalog/g/g100139/) / [Amazon](https://www.amazon.co.jp/dp/B07YTVXRY3)  |
+| **電解コンデンサ** | 1000μF 10V以上             | `Electrolytic Capacitor 1000uF 10V` | [秋月 (108424)](https://akizukidenshi.com/catalog/g/g108424/)                                                     |
+| **抵抗器**         | 330Ω 〜 470Ω               | `Resistor 1/4W 330 ohm`             | [Amazon (GOODCHIセット)](https://amzn.to/4s2Hx6a) / [秋月 (125331)](https://akizukidenshi.com/catalog/g/g125331/) |
 
 ## C. 配線・接続部材 (Wiring)
 
@@ -33,8 +33,9 @@
 | **中継コネクタ**         | JST-SM 3ピン                  | `JST-SM 3 pin connector kit` **(1〜2ペア使用)**               | [Amazon](https://www.amazon.co.jp/dp/B0716D9XJF)                                                                        |
 | **熱収縮チューブ**       | 各種サイズセット              | **配線の絶縁に必須**。                                        | [Amazon](https://www.amazon.co.jp/s?k=熱収縮チューブ+セット)                                                            |
 | **ユニバーサル基板**     | Raspberry Pi ZERO用           | `AE-RasPi-Universal-Zero`                                     | [秋月 (114031)](https://akizukidenshi.com/catalog/g/g114031/)                                                           |
-| **連結ピンソケット**     | 2x20 (スタッキング用)         | **基板を二段重ねにするために必須**                            | [秋月 (11270)](https://akizukidenshi.com/catalog/g/g11270/)                                                             |
+| **連結ピンソケット**     | 2x20 (ラズパイ用 13.5mm)      | `2x20 Stackable Header Raspberry Pi`                          | [秋月 (C-110702)](https://akizukidenshi.com/catalog/g/g110702/)                                                         |
 | **ICソケット**           | 14ピン用 (DIP)                | レベルシフタ(SN74AHCT125N)の着脱・保護に使用                  | [秋月 (100028)](https://akizukidenshi.com/catalog/g/g100028/)                                                           |
+| **ユニバーサル基板**     | 片面・ガラスエポキシ (大)     | `Universal Board 70x90mm or similar`                          | [Amazon](https://www.amazon.co.jp/dp/B01MTW8IKU) / [秋月 (100111)](https://akizukidenshi.com/catalog/g/g100111/)        |
 | **アルミフレーム**       | U型プロファイル (既製品)      | 1m×5本〜10本セット。乳白カバー付きですぐに使えます。          | [Muzata (Amazon)](https://www.amazon.co.jp/dp/B01MXWL3X9)                                                               |
 | **アルミフラットバー**   | **2mm厚 × 15〜20mm幅**        | **推奨案**。加工しやすく放熱も優秀。3Dプリント部材と併用。    | [カインズ](https://www.cainz.com/g/8755970039731.html) / [Amazon](https://www.amazon.co.jp/dp/B0091FIDJK/)              |
 | **シリコンチューブ**     | ネオンLED用スリーブ (白/10mm) | **採用案 (明るさ重視)**。粒感が消えて昼間でも美しくなります。 | [AliExpress](https://www.aliexpress.com/item/1005008787758254.html) / [Amazon](https://www.amazon.co.jp/dp/B0CRDXBSSD/) |
