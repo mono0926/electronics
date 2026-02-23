@@ -31,9 +31,9 @@
 | **シリコンケーブル(細)** | **24〜26AWG** | `24AWG Silicone Wire Multi Color` **(6色以上推奨、各1.5m〜)** | [Amazon](https://www.amazon.co.jp/s?k=24AWG+シリコンケーブル) |
 | **中継コネクタ** | JST-SM 3ピン | `JST-SM 3 pin connector kit` **(1〜2ペア使用)** | [Amazon](https://www.amazon.co.jp/dp/B0716D9XJF) |
 | **熱収縮チューブ** | 各種サイズセット | **配線の絶縁に必須**。 | [Amazon](https://www.amazon.co.jp/s?k=熱収縮チューブ+セット) |
-| **ユニバーサル基板** | Dタイプ等 | `Universal Prototype Board 4x6cm` | [秋月 (100015)](https://akizukidenshi.com/catalog/g/g100015/) |
+| **ユニバーサル基板** | Raspberry Pi ZERO用 | `AE-RasPi-Universal-Zero` | [秋月 (114031)](https://akizukidenshi.com/catalog/g/g114031/) |
 | **ICソケット** | 14ピン用 (DIP) | `14 pin DIP IC Socket` | [秋月 (101382)](https://akizukidenshi.com/catalog/g/g101382/) |
-| **アルミフレーム** | U型・合計2m分 (1m×5本セット等) | 88鍵(約123cm)には1mを2本使用。金切鋸でカットして繋げます。 | [BTF-LIGHTING (Amazon)](https://www.amazon.co.jp/dp/B082SMK1D1) |
+| **アルミフレーム** | U型・合計2m分 (1m×5本〜10本セット) | 88鍵(約123cm)には1mを2本使用。金切鋸でカットして繋げます。 | [Muzata 5本入り](https://www.amazon.co.jp/dp/B01MXWL3X9) / [10本入り](https://www.amazon.co.jp/dp/B01N4DRX7N) |
 | **3Dプリントパーツ** | マウント/エンドキャップ | **Bambu Lab P2S** で自作可能。レール端の保護や固定具に最適。 | [参考モデル (Printables)](https://www.printables.com/search/models?q=piano+led) |
 
 ## D. その他・周辺機器 (Others)
