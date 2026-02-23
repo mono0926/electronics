@@ -8,10 +8,13 @@
 | :------------------ | :--------------------------- | :--------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
 | **Microcontroller** | Raspberry Pi Zero 2 WH       | **1GHz Quad-core 64-bit SoC**, 512MB LPDDR2 RAM, **ピンヘッダー実装済みモデル**を推奨。  | [秋月電子](https://akizukidenshi.com/catalog/g/g129607/)                        |
 | **LED Strip**       | WS2812B (144 LEDs/m)         | **5V**, **IP30 (非防水)**, **黒基板**。1mあたり最大約8.6A消費するため電流容量に注意。     | [Amazon](https://www.amazon.co.jp/s?k=WS2812B+144+leds)                          |
-| **Power Supply**    | ACアダプタ (5V 10A / 50W)    | **5V 10A以上**, DCプラグ **5.5mm/2.1mm (センタープラス)**。スイッチング式、PSEマーク付き。 | [Amazon](https://www.amazon.co.jp/s?k=5V+10A+adapter)                            |
+| **Power Supply**    | ACアダプタ (5V 6A~10A)     | **5V 6.2A以上**, PSEマーク付きを推奨。秋月電子の6.2Aモデルが信頼性・入手性ともにベスト。 | [秋月電子](https://akizukidenshi.com/catalog/g/g111105/)                      |
 | **DC Jack Adapter** | 5.5x2.1mm メス ⇔ ネジ式端子  | ACアダプタのプラグを電線に変換。**許容電流10A以上**のもの（端子が太いタイプ）を推奨。    | [Amazon](https://www.amazon.co.jp/s?k=DC+Jack+Adapter) |
 | **Level Shifter**   | 74AHCT125 (DIP版)            | **Quad Bus Buffer (3-State)**。ラズパイの3.3V信号を5Vに高速変換（チラつき防止に必須）。  | [秋月電子](https://akizukidenshi.com/catalog/g/g05466/)                         |
 | **LCD Display**     | 1.44inch TFT LCD (ST7735)    | **128x128 pixel**, **SPI接続**。IPアドレスやステータス表示用。Waveshare互換品が一般的。   | [Amazon](https://www.amazon.co.jp/dp/B07S8P8Y5C)                                |
+
+> [!NOTE]
+> **電力消費に関する注意点**: 144LEDs/mをフルパワー（白・最大輝度）で点灯させると1mで約8A以上消費しますが、通常の使用（ピアノの演奏表示、輝度50%程度）であれば **5V 6A** の電源で十分に安定動作します。
 
 ## 2. 電子工作用消耗品（徹底網羅）
 
