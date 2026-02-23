@@ -1,68 +1,61 @@
 # 徹底網羅：部品・工具リスト (Exhaustive BOM) - Piano LED Visualizer
 
 このプロジェクトを安全かつ高品質に完成させるための、全パーツと推奨工具のリストです。
+リンク切れに備え、商品名・型番・検索キーワードを中心に構成しています。
 
 ## A. コア電子部品 (Core Electronics)
-これがないと始まらない、システムの心臓部です。
 
-| 部品名 | 推奨モデル | ポイント | 調達先 (国内優先) |
+| 部品名 | 推奨モデル/型番 | 検索キーワード (Amazon/AliExpress) | 調達先 (国内優先) |
 | :--- | :--- | :--- | :--- |
-| **Microcontroller** | Raspberry Pi Zero 2 WH | 4コアの高速版。ヘッダー付き(WH)が組立やすく推奨。 | [秋月電子](https://akizukidenshi.com/catalog/g/g129607/) |
-| **LED Strip** | WS2812B (144 LEDs/m) | **5V, IP30(非防水), 黒基板**。ピアノ88鍵には1.5m〜2m必要。 | [Amazon](https://www.amazon.co.jp/s?k=WS2812B+144+leds) / [AliExpress](https://ja.aliexpress.com/item/1005007989207832.html) |
-| **Power Supply** | ACアダプタ 5V 6.2A | PSE取得済み。144LEDを50%輝度で駆動するのに最適。 | [秋月電子](https://akizukidenshi.com/catalog/g/g111105/) |
-| **DC Jack Adapter** | メタルボディ・ネジ端子式 | 頑丈な金属製。ACアダプタの出力を安全に配線へ分岐。 | [秋月電子](https://akizukidenshi.com/catalog/g/g108851/) |
-| **Level Shifter** | SN74AHCT125N (DIP-14) | ラズパイの3.3V信号を5Vに増幅。チラつき防止に必須。 | [マルツ](https://www.marutsu.co.jp/pc/i/14226373/) / [AliExpress](https://ja.aliexpress.com/item/1005010466137824.html) |
-| **LCD Display** | 1.44inch TFT (ST7735) | 128x128px, SPI接続。IPアドレスや状態表示用。 | [千石電商](https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EE5-573T) / [アリエク](https://ja.aliexpress.com/item/1005005741243785.html) |
+| **Microcontroller** | Raspberry Pi Zero 2 WH | `Raspberry Pi Zero 2 WH` | [秋月 (129607)](https://akizukidenshi.com/catalog/g/g129607/) / [KSR](https://www.ksyic.com/) |
+| **LED Strip** | WS2812B (144 LEDs/m) | `WS2812B 144 leds 5V IP30 black PCB` | [Amazon](https://www.amazon.co.jp/s?k=WS2812B+144+leds+5V) / [AliExpress](https://ja.aliexpress.com/item/1005007989207832.html) |
+| **Level Shifter** | SN74AHCT125N | `SN74AHCT125N DIP-14` | [秋月 (104313)](https://akizukidenshi.com/catalog/g/g104313/) / [AliExpress](https://ja.aliexpress.com/item/1005010466137824.html) |
+| **LCD Display** | 1.44" TFT (ST7735) | `1.44 inch TFT LCD ST7735 SPI` | [秋月 (116135)](https://akizukidenshi.com/catalog/g/g116135/) / [AliExpress](https://ja.aliexpress.com/item/1005006209100114.html) |
 
-## B. 安全・安定化パーツ (Safety & Protection)
-火災防止と動作安定のための「影の主役」です。
+## B. 電源・安全・安定化 (Power & Safety)
 
-| 部品名 | スペック | 役割 | 調達先 |
+| 部品名 | スペック/型番 | 検索キーワード / 備考 | 調達先 |
 | :--- | :--- | :--- | :--- |
-| **Inline Fuse Holder** | 平型ヒューズ用 (12~16AWG) | 電源ラインに挿入。異常時の発火を防止。 | [秋月電子](https://akizukidenshi.com/catalog/g/g105436/) / [Amazon](https://www.amazon.co.jp/dp/B08L7V4QW6) |
-| **Blade Fuse** | **10A** (平型) | 万が一のショート時に回路を遮断。 | [秋月電子](https://akizukidenshi.com/catalog/g/g104900/) |
-| **Capacitor** | 1000μF 6.3V以上 (電解) | LED電源入力部に入れ、突入電流を平滑化。 | [秋月電子](https://akizukidenshi.com/catalog/g/g100147/) |
-| **Resistor** | 330Ω 〜 470Ω | データ線の始点に入れ、信号の反射ノイズを抑制。 | [秋月電子](https://akizukidenshi.com/catalog/g/g102283/) |
+| **AC Adapter** | 5V 6.2A (LTE36ES-S1-301) | `5V 6A AC Adapter 5.5mm 2.1mm` | [秋月 (111105)](https://akizukidenshi.com/catalog/g/g111105/) |
+| **DC Jack Adapter** | ネジ端子式 | `DC Jack Adapter 5.5mm 2.1mm Terminal` | [秋月 (108851)](https://akizukidenshi.com/catalog/g/g108851/) |
+| **Fuse Holder** | ネジ止め/パネルマウント | `Fuse Holder 5x20mm` | [秋月 (100112)](https://akizukidenshi.com/catalog/g/g100112/) |
+| **Glass Fuse** | **10A** (5.2x20mm) | `Glass Fuse 10A 250V 5x20mm` | [秋月 (104900)](https://akizukidenshi.com/catalog/g/g104900/) |
+| **Capacitor** | 1000μF 10V以上 (電解) | `Electrolytic Capacitor 1000uF 10V` | [秋月 (100147)](https://akizukidenshi.com/catalog/g/g100147/) |
+| **Resistor** | 330Ω 〜 470Ω | `Resistor 1/4W 330 ohm` | [秋月 (102283)](https://akizukidenshi.com/catalog/g/g102283/) |
 
-## C. 配線・接続パーツ (Wiring & Connectivity)
-「これがないと作業が止まる」部材たちです。
+## C. 配線・接続部材 (Wiring & Connectivity)
 
-| 部品名 | 推奨仕様 | 役割 | 調達先 |
+| 部品名 | 推奨仕様 | 検索キーワード / 備考 | 調達先 |
 | :--- | :--- | :--- | :--- |
-| **Silicon Wire (厚)** | **18AWG** (赤・黒) | 電源ライン用。10Aを流しても熱くならない太さ。 | [Amazon](https://www.amazon.co.jp/dp/B07G76CGLR) |
-| **Silicon Wire (細)** | **24〜26AWG** (各色) | 信号ライン用。柔らかく取り回しが良い。 | [Amazon](https://www.amazon.co.jp/dp/B07G29L8X2) |
-| **Connectors** | JST-SM 3-pin | LEDストリップの着脱を容易に。 | [Amazon](https://www.amazon.co.jp/dp/B0716D9XJF) |
-| **Heat Shrink Kit** | 各種サイズセット | はんだ付け箇所の絶縁。ライター等で熱収縮。 | [Amazon](https://www.amazon.co.jp/dp/B08XJSM9KG) |
-| **Universal PCB** | Dタイプ (47x36mm) | レベルシフタIC等の実装台座。 | [秋月電子](https://akizukidenshi.com/catalog/g/g100015/) |
-| **IC Socket** | 14ピン用 (DIP) | ICを直接はんだ付けせず、交換可能にする。 | [秋月電子](https://akizukidenshi.com/catalog/g/g101382/) |
-| **Standoff Kit** | M2.5 ナイロン製 | ラズパイや基板の固定用。 | [Amazon](https://www.amazon.co.jp/dp/B06XZ7F9PR) |
-| **Mounting Tape** | 3M 超強力両面テープ | アルミプロファイルをピアノに固定。 | [Amazon](https://www.amazon.co.jp/dp/B01B79Y6QO) |
+| **Silicon Wire (厚)** | **18AWG** (赤・黒) | `18AWG Silicone Wire Red Black` | [Amazon](https://www.amazon.co.jp/s?k=18AWG+シリコンケーブル) |
+| **Silicon Wire (細)** | **24〜26AWG** | `24AWG Silicone Wire Multi Color` | [Amazon](https://www.amazon.co.jp/s?k=24AWG+シリコンケーブル) |
+| **Connectors** | JST-SM 3-pin | `JST-SM 3 pin connector kit` | [Amazon](https://www.amazon.co.jp/dp/B0716D9XJF) |
+| **Universal PCB** | 片面/両面 Dタイプ等 | `Universal Prototype Board 4x6cm` | [秋月 (100015)](https://akizukidenshi.com/catalog/g/g100015/) |
+| **IC Socket** | 14ピン用 (DIP) | `14 pin DIP IC Socket` | [秋月 (101382)](https://akizukidenshi.com/catalog/g/g101382/) |
+| **Aluminum Profile** | U型・2m分 | `LED Aluminum Profile U-shape 1m` | [Amazon](https://www.amazon.co.jp/dp/B07H8H187N) |
 
-## D. 筐体・外装パーツ (Structure & Housing)
-美しく機能的な完成形を目指すための部材です。
+## D. その他・周辺機器 (Others)
 
-| 部品名 | 詳細 | ポイント |
+| 部品名 | 備考 | 調達先 (例) |
 | :--- | :--- | :--- |
-| **Aluminum Profile** | U型・ディフューザー付き | **放熱**と**光の拡散**。2m分必要。 | [Amazon](https://www.amazon.co.jp/dp/B07H8H187N) |
-| **3D Print Filaments** | PLA / PETG (黒/白) | コンソールケースの印刷用。Bambu Lab P2Sで出力。 |
-| **USB OTG Hub** | Micro USB ⇔ USB-A x2以上 | ピアノからのMIDI信号をラズパイに入力。 | [Amazon](https://www.amazon.co.jp/dp/B00NHA7S2M) |
-| **MicroSD Card** | 16GB〜32GB (High Speed) | OSおよび楽曲データ用。 | [Amazon](https://www.amazon.co.jp/dp/B07SC7BZHR) |
-| **HDMI Adapter** | Mini-HDMI to HDMI | 初期設定やデバッグ用。 | [Amazon](https://www.amazon.co.jp/dp/B006V7S4M8) |
+| **USB OTG Hub** | MIDI接続に使用 | [Amazon](https://www.amazon.co.jp/dp/B00NHA7S2M) |
+| **MicroSD Card** | 16GB〜32GB | [Amazon](https://www.amazon.co.jp/dp/B07SC7BZHR) |
+| **HDMI Adapter** | Mini-HDMI to HDMI | [Amazon](https://www.amazon.co.jp/dp/B006V7S4M8) |
+| **Mounting Tape** | 3M 超強力等 | [Amazon](https://www.amazon.co.jp/dp/B01B79Y6QO) |
 
-## E. 必須・推奨ツール (Tools)
-作業効率とクオリティを左右する道具です。
+## E. 必須・推奨工具 (Tools)
 
-| 道具名 | 推奨品 / 条件 | 役割 |
+| 道具名 | 推奨品 / 型番 | 役割 |
 | :--- | :--- | :--- |
-| **Soldering Iron** | HAKKO FX-600 等 (温度調節付) | 日本の電子工作のデファクト。 |
-| **Wire Stripper** | **Vessel 3500E-2** | シリコン線の被覆を傷つけず剥く。神ツール。 |
-| **Multimeter** | **Sanwa PM-3** または **HIOKI 3244-60** | 電圧チェック、導通確認に必須。ないと詰みます。 |
-| **Breadboard** | ミニサイズ | はんだ付け前の動作検証用。 |
-| **Solder Wire** | 0.6〜0.8mm径 (鉛入り推奨) | 初心者には鉛入りの方が濡れ性が良く失敗が少ない。 |
+| **Soldering Iron** | HAKKO FX-600 | 温度調節付。日本での定番。 |
+| **Wire Stripper** | **Vessel 3500E-2** | シリコン線に最適。作業効率が劇的に向上。 |
+| **Multimeter** | Sanwa PM-3 / HIOKI 3244-60 | 電圧チェック、導通確認に必須。 |
+| **Solder Wire** | 0.6〜0.8mm径 (鉛入り) | 初心者には鉛入りの方が扱いやすい。 |
 
 ---
+
 ### 💡 製作のアドバイス
 
-- **ACアダプタの保護**: ヒューズは必ずACアダプタに近い側に配置してください。
-- **テスターの重要性**: はんだ付けが終わるたびに、VCCとGNDがショートしていないかテスターで「導通チェック」する癖をつけましょう。これでラズパイを焼くリスクが激減します。
-- **熱対策**: 144LED/mはそれなりに熱を持ちます。アルミプロファイルへの貼り付けは、LEDを長持ちさせるためにも非常に有効です。
+- **ACアダプタの保護**: ヒューズは必ずACアダプタの直後（VCC側）に配置してください。
+- **テスターの重要性**: はんだ付けが終わるたびに、VCCとGNDがショートしていないか「導通チェック」してください。
+- **熱対策**: 144LED/mは熱を持ちやすいため、アルミプロファイルへの貼り付けを強く推奨します。
