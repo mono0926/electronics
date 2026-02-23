@@ -36,7 +36,7 @@
 | **ICソケット**           | 14ピン用 (DIP)                     | レベルシフタ(SN74AHCT125N)の着脱・保護に使用                  | [秋月 (100028)](https://akizukidenshi.com/catalog/g/g100028/)                                                 |
 | **アルミフレーム**       | U型プロファイル (既製品)           | 1m×5本〜10本セット。乳白カバー付きですぐに使えます。          | [Muzata (Amazon)](https://www.amazon.co.jp/dp/B01MXWL3X9)                                                     |
 | **アルミフラットバー**   | **2mm厚 × 15〜20mm幅**             | **推奨案**。加工しやすく放熱も優秀。3Dプリント部材と併用。    | [カインズ](https://www.cainz.com/g/8755970039731.html) / [Amazon](https://www.amazon.co.jp/dp/B0091FIDJK/)      |
-| **シリコンチューブ**     | ネオンLED用スリーブ (10/12mm)      | アルミ板の上に乗せて拡散用。粒感が消えて美しくなります。      | [AliExpress](https://www.aliexpress.com/item/1005008787758254.html) / [Amazon](https://www.amazon.co.jp/dp/B0CRDXBSSD/) |
+| **シリコンチューブ**     | ネオンLED用スリーブ (白/10mm)      | **採用案 (明るさ重視)**。粒感が消えて昼間でも美しくなります。 | [AliExpress](https://www.aliexpress.com/item/1005008787758254.html) / [Amazon](https://www.amazon.co.jp/dp/B0CRDXBSSD/) |
 | **3Dプリントパーツ**     | マウント/ジョイント                | **Bambu Lab P2S** で自作。アルミ板をピアノに固定する部品。    | [参考モデル (Printables)](https://www.printables.com/search/models?q=piano+led)                               |
 
 ## D. その他・周辺機器 (Others)
