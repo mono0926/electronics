@@ -114,4 +114,6 @@ Webブラウザから設定画面を開きます。
 - [**設置・固定ガイド**](mounting_and_installation_guide.md) - 物理的な取り付けと配線のコツ
 - [**設定・活用ガイド**](configuration_and_usage_guide.md) - Web UI の設定や外部アプリ連携
 
+すべてのドキュメントを探すには、[**ドキュメント・インデックス (Document Map)**](index.md) をご覧ください。
+
 素敵な演奏体験になりますように。🎹✨

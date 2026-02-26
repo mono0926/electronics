@@ -6,10 +6,15 @@ Bambu Lab P2S を活用して、Piano LED Visualizer の筐体と LED ストリ�
 
 Raspberry Pi Zero 2 W を保護し、配線を整理するためのケースを印刷します。
 
-### 推奨モデル
+### 推奨モデルと設計
 
-- オリジナルの STL ファイル: [Docs/RPICaseModel.stl](https://github.com/onlaj/Piano-LED-Visualizer/blob/master/Docs/RPICaseModel.stl)
-  - 電源ジャックや配線用の穴が最適化されています。
+本プロジェクトでは熱対策のためスタッキング（重ね合わせ）を回避する「横並び構成（案B）」を推奨しています。
+そのため、公式の STL ファイルではなく、ご自身の基板サイズに合わせたケースの出力をおすすめします。
+
+- **推奨ガイド**: [**3Dプリント用 専用ケース設計ガイド (Option B対応)**](case_3d_modeling_guide.md)
+  - Bambu Studio のネガティブパーツ機能を使い、汎用ボックスに画面穴や配線穴を簡単に開ける方法を解説しています。
+- （参考）公式の STL ファイル: `external/Docs/RPICaseModel.stl`
+  - ※こちらは案A（スタッキング構成）専用の極小ケースです。熱がこもる点と部品干渉に注意してください。
 
 ### Bambu Lab P2S での推奨設定
 
