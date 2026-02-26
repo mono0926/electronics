@@ -90,3 +90,6 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/onlaj/Piano-LED-Vis
 - **Velocity Mode**: 鍵盤を叩く強さに応じて、LEDの輝度や色を変化させます。
 - **Fading**: 離鍵後に余韻を残すように消灯させます。
 - **Background Layer**: 演奏していない時に、全体の雰囲気を盛り上げるバックグラウンドアニメーションを重畳させます。
+
+> [!NOTE]
+> アニメーションモードの詳細な種類や、Webインターフェースで設定できる全機能の図解辞典については、[主要機能 (external/Docs/features.md)](external/Docs/features.md) を参照してください。完成後に「どんな風に光らせて遊べるか」を楽しむための必読ドキュメントです。

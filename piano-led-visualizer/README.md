@@ -17,7 +17,7 @@
 
 本プロジェクトでは、オリジナルのリポジトリを [mono0926/Piano-LED-Visualizerにフォークし、`ja` ブランチ](https://github.com/mono0926/Piano-LED-Visualizer/tree/ja)で日本語訳を管理しています。
 
-最新のオリジナルドキュメント（日本語訳）は `/external/README.md` を参照してください。
+最新のオリジナルドキュメント（日本語訳）は [`/external/README.md`](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/README.md) を参照してください。
 
 ### 更新ワークフロー
 

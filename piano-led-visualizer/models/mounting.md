@@ -18,7 +18,7 @@ Bambu Lab P2S を活用して、システムを美しく・堅牢に設置する
 
 ### おすすめの設計
 
-- **推奨STL**: [onlaj/Piano-LED-Visualizer](https://github.com/onlaj/Piano-LED-Visualizer) の `Resources/3D_Models` に公式のケースデータが含まれています。
+- **推奨STL**: [onlaj/Piano-LED-Visualizer](https://github.com/mono0926/Piano-LED-Visualizer/tree/ja) の `Docs` に公式のケースデータが含まれています。
 - **P2Sでの設定**:
   - 素材: **PLA** または **PETG** (熱を持つ場合はPETG)。
   - 設定: 0.2mm Standard 設定で十分です。
