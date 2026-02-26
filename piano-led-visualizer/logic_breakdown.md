@@ -4,7 +4,7 @@
 
 ## 1. LED配置とキーの対応ロジック
 
-MIDIノート番号（0〜127）をLEDストリップ上のインデックスに変換する計算は、`lib/functions.py` の `get_note_position` 関数で行われています。
+MIDIノート番号（0〜127）をLEDストリップ上のインデックスに変換する計算は、[`lib/functions.py`](https://github.com/mono0926/Piano-LED-Visualizer/tree/ja/lib/functions.py) の `get_note_position` 関数で行われています。
 
 ### 基本計算式
 
@@ -30,7 +30,7 @@ note_pos_raw = int(density * (note - 20) - note_offset)
 
 ## 2. MIDIイベントの処理
 
-`lib/midi_event_processor.py` がMIDI信号を解析し、描画命令に変換します。
+[`lib/midi_event_processor.py`](https://github.com/mono0926/Piano-LED-Visualizer/tree/ja/lib/midi_event_processor.py) がMIDI信号を解析し、描画命令に変換します。
 
 ### バースト処理 (Coalescing)
 

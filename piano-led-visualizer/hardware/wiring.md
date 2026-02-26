@@ -4,7 +4,7 @@
 
 以下は、Raspberry Pi、レベルシフター、LEDテープ、電源の物理的な接続イメージです。
 
-![配線図](file:///Users/mono/Git/electronics/piano-led-visualizer/hardware/wiring_diagram.png)
+![配線図](./wiring_diagram.png)
 
 ## 1. 全体配線図
 
@@ -128,4 +128,4 @@ graph LR
 
 ---
 
-[部品リスト (bom.md) に戻る](file:///Users/mono/Git/electronics/piano-led-visualizer/hardware/bom.md)
+[部品リスト (bom.md) に戻る](./bom.md)
