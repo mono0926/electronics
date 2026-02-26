@@ -8,6 +8,7 @@
 ## 🚀 まず最初に読むべきガイド
 
 - [**Raspberry Pi 超入門ガイド**](raspberry_pi_beginners_guide.md): そもそもラズパイを初めて触る方向けの絶対ルールと動作確認方法。
+- [**歴代 Raspberry Pi スペック比較表**](raspberry_pi_models_specs.md): 各モデルの性能（CPU/メモリ）や特徴、用途別の選び方ガイド。
 - [**プロジェクト README**](../README.md): プロジェクトの概要とディレクトリ構造。
 - [**ビギナーズ・スタートガイド**](getting_started_guide.md): パーツ購入から完成までのロードマップと基本手順。ピアノLEDを始める方はここから！
 
