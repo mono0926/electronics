@@ -13,7 +13,7 @@
 
 ## サブモジュールの利用
 
-本プロジェクトでは、オリジナルのリポジトリを [mono0926/Piano-LED-Visualizer](https://github.com/mono0926/Piano-LED-Visualizer) にフォークし、`ja` ブランチで日本語訳を管理しています。
+本プロジェクトでは、オリジナルのリポジトリを [mono0926/Piano-LED-Visualizerにフォークし、`ja` ブランチ](https://github.com/mono0926/Piano-LED-Visualizer/tree/ja)で日本語訳を管理しています。
 
 最新のオリジナルドキュメント（日本語訳）は `/external/README.md` を参照してください。
 
