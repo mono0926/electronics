@@ -4,7 +4,7 @@
 
 ## 1. LED配置とキーの対応ロジック
 
-MIDIノート番号（0〜127）をLEDストリップ上のインデックスに変換する計算は、[`lib/functions.py`](https://github.com/mono0926/Piano-LED-Visualizer/tree/ja/lib/functions.py) の `get_note_position` 関数で行われています。
+MIDIノート番号（0〜127）をLEDストリップ上のインデックスに変換する計算は、[`lib/functions.py`](https://github.com/mono0926/Piano-LED-Visualizer/tree/ja/lib/functions.py) の [`get_note_position`](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/lib/functions.py#L518) 関数で行われています。
 
 ### 基本計算式
 
@@ -19,7 +19,7 @@ note_pos_raw = int(density * (note - 20) - note_offset)
 - **`72` (基準密度)**: 標準的なピアノの1メートルあたりの鍵盤数（88鍵 / 約1.22m ≒ 72）を指す定数です。これによって、どんな密度のLEDストリップでも鍵盤位置が合うように比率が計算されます。
   - `144 / 72 = 2.0` なら、1つの鍵盤に2個のLEDが割り当たります。
 - **`- 20`**: ピアノの88鍵盤の最初の音（A0）はMIDIノート番号 `21` です。これをインデックス `1` 付近に持ってくるためのオフセットです。
-- **`note_offset`**: 特定のノート範囲ごとに累積する物理的なズレを補正するためのリスト（`settings.xml` の `note_offsets`）。
+- **`note_offset`**: 特定のノート範囲ごとに累積する物理的なズレを補正するためのリスト（[`settings.xml`](https://github.com/mono0926/Piano-LED-Visualizer/tree/ja/config/default_settings.xml) の `note_offsets`）。
 
 ### 最終的な調整
 
@@ -36,7 +36,7 @@ note_pos_raw = int(density * (note - 20) - note_offset)
 
 高速な演奏でも描画がカクつかないよう、1.5ms以内の短い間隔で届いたメッセージをまとめ、一度のループで処理します。これにより、和音などの同時打鍵もスムーズに描画されます。
 
-### モード別の描画ロジック (`handle_note_on`)
+### モード別の描画ロジック ([`handle_note_on`](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/lib/midi_event_processor.py#L203))
 
 - **Velocityモード**: 打鍵速度（0〜127）を輝度（0.0〜1.0）としてマッピングします。
 - **Fadingモード**: キーを離した際、即座に消灯せず、設定された `fadingspeed` に基づいて徐々に暗くします。
