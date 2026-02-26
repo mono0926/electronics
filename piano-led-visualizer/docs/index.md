@@ -38,7 +38,7 @@
 
 ### アレンジ・安全性
 
-- [**ピアノ用ハイブリッドLEDレール制作ガイド**](../hardware/housing_build_guide.md): アルミとシリコン튜브を組み合わせた剛性の高いレールの作り方。
+- [**ピアノ用ハイブリッドLEDレール制作ガイド**](../hardware/housing_build_guide.md): アルミとシリコンチューブを組み合わせた剛性の高いレールの作り方。
 - [**安全のための「ヒューズ」講座**](../hardware/safety_guide.md)
 - [**設置・固定ガイド**](mounting_and_installation_guide.md): ピアノへの物理的な取り付け方。
 

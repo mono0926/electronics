@@ -78,6 +78,9 @@ ACアダプタから安全に電気を供給するためのステップです。
 
 ## 💻 フェーズ3: ソフトウェアのインストール
 
+> [!TIP]
+> モニターやキーボードを直接繋げない場合の、Wi-Fiを経由した初期SSH手順は [Wi-Fi経由のSSH設定](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/Docs/wifi_setup.md) を参照してください。
+
 1. 電源を入れて3分ほど待機します。
 2. Macのターミナルからログインします。
    ```bash

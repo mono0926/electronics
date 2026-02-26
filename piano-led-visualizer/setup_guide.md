@@ -35,6 +35,11 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/onlaj/Piano-LED-Vis
 - 途中で何度か再起動を求められる場合があります。
 - スクリプトが完了すると、ラズパイ自体が Wi-Fi ホスポット（SSID: `PianoLEDVisualizer`）になるモードと、既存の Wi-Fi に繋がるモードが選べます。基本的には既存の Wi-Fi をそのまま使うのが便利です。
 
+> [!NOTE]
+>
+> - 外出先など固定Wi-Fiがない場所での利用を想定する場合は、[オートホットスポット設定](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/Docs/autohotspot.md) を参照してください。
+> - もし自動インストールが正常に完了しない場合は、[手動インストール手順](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/Docs/manual_installation.md) も用意されています。
+
 ## 3. サービスの管理 (systemd)
 
 プログラムは `visualizer.service` としてバックグラウンドで自動実行されます。手動で操作する際の主要コマンドは以下の通りです。

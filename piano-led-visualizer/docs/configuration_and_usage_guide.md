@@ -32,6 +32,9 @@
 - **設定方法**: Synthesia の MIDI 出力先に `PianoLEDVisualizer` を指定します。
 - **メリット**: 楽譜が読めなくても、光を追うだけで曲を覚えることができます。
 
+> [!TIP]
+> Bluetooth経由での連携を検討している場合、接続が不安定になることがあるため [Bluetooth接続の設定とトラブルシューティング](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/Docs/btconnection.md) をご一読願います。
+
 ### 2. 録音と再生 (Songs)
 
 自分の演奏を MIDI ファイルとして保存できます。
