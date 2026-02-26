@@ -67,6 +67,6 @@ OSやプログラムの導入、設定に関するガイドです。
 
 基本的な組み立てと設定が終わった後に読む「**機能リファレンス**」です。
 
-- [**ソフトウェアの全機能・エフェクト事典**](../external/Docs/features.md): 様々な光り方（ベロシティ・レインボー等）や、内蔵の録音・自動再生・学習モードの図解。**完成後、一番最初に読むべきマニュアル**です。
-- [**外部アプリ連携・発展的な使い方**](../external/Docs/external_devices.md): スマホやタブレット上のピアノアプリと連動させるための具体的な機器構成パターン（有線・ネットワーク・Bluetooth等）。
-- [**本家独自の改造アイデアとその他**](../external/Docs/cover_detection.md): 鍵盤カバー開閉検知ギミックなどのニッチな機能解説。
+- [**ソフトウェアの全機能・エフェクト事典**](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/Docs/features.md): 様々な光り方（ベロシティ・レインボー等）や、内蔵の録音・自動再生・学習モードの図解。**完成後、一番最初に読むべきマニュアル**です。
+- [**外部アプリ連携・発展的な使い方**](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/Docs/external_devices.md): スマホやタブレット上のピアノアプリと連動させるための具体的な機器構成パターン（有線・ネットワーク・Bluetooth等）。
+- [**本家独自の改造アイデアとその他**](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/Docs/cover_detection.md): 鍵盤カバー開閉検知ギミックなどのニッチな機能解説。

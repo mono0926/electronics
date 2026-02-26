@@ -92,4 +92,4 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/onlaj/Piano-LED-Vis
 - **Background Layer**: 演奏していない時に、全体の雰囲気を盛り上げるバックグラウンドアニメーションを重畳させます。
 
 > [!NOTE]
-> アニメーションモードの詳細な種類や、Webインターフェースで設定できる全機能の図解辞典については、[主要機能 (external/Docs/features.md)](external/Docs/features.md) を参照してください。完成後に「どんな風に光らせて遊べるか」を楽しむための必読ドキュメントです。
+> アニメーションモードの詳細な種類や、Webインターフェースで設定できる全機能の図解辞典については、[主要機能 (外部ドキュメント)](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/Docs/features.md) を参照してください。完成後に「どんな風に光らせて遊べるか」を楽しむための必読ドキュメントです。

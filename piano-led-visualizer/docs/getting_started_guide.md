@@ -119,9 +119,9 @@ Webブラウザから設定画面を開きます。
 
 基本的な組み立てと設定が終わった後は、ルートのリポジトリ内にある `external` ディレクトリ（本家プロジェクトの日本語訳ドキュメント）が「**完成した後の機能リファレンス**」として非常に役立ちます。
 
-- [**ソフトウェアの全機能・エフェクト事典**](../external/Docs/features.md): 様々な光り方（ベロシティ・レインボー等）や、内蔵の録音・自動再生・学習モードの図解。**完成後、最初に読むべきマニュアル**です。
-- [**外部アプリ（Synthesia等）との高度な連携設定**](../external/Docs/external_devices.md): iPadなどのピアノアプリと連動させるための具体的な機器構成パターン（有線・ネットワーク等）。
-- [**鍵盤カバー開閉検知などの改造アイデア**](../external/Docs/cover_detection.md): 本家ならではのハードウェア拡張ギミック集。
+- [**ソフトウェアの全機能・エフェクト事典**](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/Docs/features.md): 様々な光り方（ベロシティ・レインボー等）や、内蔵の録音・自動再生・学習モードの図解。**完成後、最初に読むべきマニュアル**です。
+- [**外部アプリ（Synthesia等）との高度な連携設定**](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/Docs/external_devices.md): iPadなどのピアノアプリと連動させるための具体的な機器構成パターン（有線・ネットワーク等）。
+- [**鍵盤カバー開閉検知などの改造アイデア**](https://github.com/mono0926/Piano-LED-Visualizer/blob/ja/Docs/cover_detection.md): 本家ならではのハードウェア拡張ギミック集。
 
 すべてのドキュメントを探すには、[**ドキュメント・インデックス (Document Map)**](index.md) をご覧ください。
 
