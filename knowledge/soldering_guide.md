@@ -24,7 +24,7 @@
 
 高精度な温度管理ができるものが理想です。
 
-- **推奨**: [Pinecil V2](file:///Users/mono/Git/electronics/knowledge/soldering_iron.md)
+- **推奨**: [Pinecil V2](./soldering_iron.md)
 - **設定温度**: 有鉛はんだなら **320℃** 前後が目安です。
 
 ### ② はんだ
