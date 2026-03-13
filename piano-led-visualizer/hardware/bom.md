@@ -45,7 +45,8 @@
 
 | 部品名               | 備考                          | 調達先 (例)                                                                     |
 | :------------------- | :---------------------------- | :------------------------------------------------------------------------------ |
-| **USBハブ(OTG)**     | MIDIキーボード接続(Micro-USB) | [AliExpress (3 in 1 hub)](https://ja.aliexpress.com/item/1005007204961807.html) |
+| **USBハブ(OTG)**     | ラズパイへの拡張・給電用(Micro-USB) | [AliExpress (3 in 1 hub)](https://ja.aliexpress.com/item/1005007204961807.html) |
+| **USBケーブル(A-B)** | ピアノ(USB COMPUTER端子)とのMIDI接続用 | [Amazon (UGREEN等 2m〜)](https://www.amazon.co.jp/s?k=USB+プリンターケーブル)   |
 | **microSDカード**    | 16GB〜32GB                    | [Amazon](https://www.amazon.co.jp/dp/B07SC7BZHR)                                |
 | **HDMI変換ケーブル** | Mini-HDMI to HDMI (1m〜)      | [Amazon (ケーブルタイプ推奨)](https://amzn.to/4ca25oP)                          |
 | **超強力両面テープ** | 3M製など。フレーム固定用。    | [Amazon](https://www.amazon.co.jp/dp/B01B79Y6QO)                                |
