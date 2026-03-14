@@ -42,7 +42,7 @@
 1. **Raspberry Pi Imager** をダウンロードして開きます。
 2. **OS 選択**: `Raspberry Pi OS (64-bit) Lite`
 3. **詳細設定 (歯車アイコン)** で以下を設定します：
-   - ホスト名: `pianoledvisualizer.local`
+   - ホスト名: `pianoledvisualizer` （※`.local` は入力不要です。ネットワーク上で自動的に付加されます）
    - SSH を有効化（パスワード認証）
    - ユーザー名: `plv` / パスワード: `visualizer`（任意ですが推奨値です）
    - Wi-Fi 設定: 自宅の SSID とパスワードを入力
