@@ -81,8 +81,20 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/onlaj/Piano-LED-Vis
 ### ハマりどころと対策
 
 > [!CAUTION]
-> **SPI の有効化**:
-> 自動インストールで有効化されますが、もし点灯しない場合は `sudo raspi-config` > `Interface Options` > `SPI` が `Yes` になっているか確認してください。
+> **SPI の有効化 (Bookworm 以降)**:
+> 最近のOSでは設定ファイルの場所が異なります。`ls /dev/spi*` で何も表示されない場合は、以下のコマンドを実行して再起動してください。
+> ```bash
+> sudo raspi-config nonint do_spi 0
+> sudo reboot
+> ```
+> 実際の効力があるファイルは `/boot/firmware/config.txt` です。ここが `dtparam=spi=on` になっている必要があります。
+
+> [!IMPORTANT]
+> **液晶が真っ白なままの場合**:
+> `/home/Piano-LED-Visualizer/config/settings.xml` 内に `<led_screen_type>1in44</led_screen_type>` (または `ST7735`) のタグが含まれているかを確認してください。設定がないと、SPIが有効でも描画が開始されません。
+>
+> **ボタン・スティックが反応しない場合**:
+> 液晶表示用の9本とは別に、操作信号用のブリッジ配線が必要です。詳細は [hw_step2_2_controller.md](./docs/hw_step2_2_controller.md#🕹-オプションジョイスティックボタン操作の有効化) を参照して追加配線を行ってください。
 
 > [!TIP]
 > **Zero 2 W の熱**:
