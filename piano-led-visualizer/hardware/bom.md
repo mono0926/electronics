@@ -19,6 +19,7 @@
 | :----------------- | :------------------------- | :---------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
 | **ACアダプタ**     | 5V 6.2A (秋月電子)         | `5V 6.2A AC Adapter 5.5mm 2.1mm`    | [秋月 (P-111105)](https://akizukidenshi.com/catalog/g/g111105/)                                                   |
 | **DCジャック変換** | ネジ端子式                 | `DC Jack Adapter Terminal Block`    | [Amazon](https://www.amazon.co.jp/dp/B009P07UOW) / [秋月 (4762)](https://akizukidenshi.com/catalog/g/g104762/)    |
+| **手動スイッチ** (追加) | **定格 10A 以上 (DC)** | `Toggle Switch 12V 20A`             | [Amazon (ミサイルスイッチ等)](https://www.amazon.co.jp/s?k=ロッカースイッチ+20A)                                  |
 | **ヒューズ**       | 10A (ガラス管ヒューズ)     | `Glass Tube Fuse 10A 32mm`          | [秋月 (107138)](https://akizukidenshi.com/catalog/g/g107138/)                                                     |
 | **ヒューズホルダ** | 中継型または基板マウント型 | `Glass Fuse Holder 30mm/32mm`       | [秋月 (100139)](https://akizukidenshi.com/catalog/g/g100139/) / [Amazon](https://www.amazon.co.jp/dp/B07YTVXRY3)  |
 | **電解コンデンサ** | 1000μF 10V以上             | `Electrolytic Capacitor 1000uF 10V` | [秋月 (108424)](https://akizukidenshi.com/catalog/g/g108424/)                                                     |

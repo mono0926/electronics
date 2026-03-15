@@ -42,9 +42,15 @@ graph TD
         LED_DIN["DIN (Data In)"]
     end
 
+    subgraph Safety["Safety Circuit (保護回路)"]
+        Switch["Manual Switch (10A+)"]
+        Fuse["Fuse (10A)"]
+    end
+
     %% Connections
-    PSU_P --> LED_VCC
-    PSU_P --> LS_VCC
+    PSU_P --> Switch --> Fuse
+    Fuse --> LED_VCC
+    Fuse --> LS_VCC
 
     PSU_N --> LED_GND
     PSU_N --> LS_GND
