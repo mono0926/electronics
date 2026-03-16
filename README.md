@@ -6,6 +6,7 @@ monoの電子工作プロジェクトのリポジトリです。
 ## 🛠 プロジェクト一覧
 
 - [Cube Timer](cube-timer/README.md) - スピードキューブ用タイマーの製作
+- [Piano LED Visualizer](piano-led-visualizer/README.md) - ピアノ演奏をLEDで視覚化するプロジェクト
 
 ## 📚 ナレッジ（全般知識・ツール）
 
