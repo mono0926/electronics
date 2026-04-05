@@ -1,3 +1,6 @@
 [submodule "piano-led-visualizer/external"]
 	path = piano-led-visualizer/external
 	url = https://github.com/mono0926/Piano-LED-Visualizer
+[submodule "sentry-usb/external"]
+	path = sentry-usb/external
+	url = https://github.com/mono0926/Sentry-USB.git
